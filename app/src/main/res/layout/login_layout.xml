@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:id="@+id/layoutLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/logo_jmo"
+                android:layout_height="200dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loginTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layoutLogo">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Login"
+                android:textSize="30dp"
+                android:fontFamily="@font/titillium"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loginExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:text="Silahkan login untuk masuk applikasi"
+            android:textColor="@color/black"
+            android:fontFamily="@font/titillium_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/loginTextLayout"/>
+
+        <LinearLayout
+            android:id="@+id/usernameEditTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/loginExplanation">
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Anda"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passwordEditTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/usernameEditTextLayout">
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password Anda"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loginButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/passwordEditTextLayout">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginButton"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Login"
+                android:fontFamily="@font/titillium"
+                android:backgroundTint="@color/teal_700"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

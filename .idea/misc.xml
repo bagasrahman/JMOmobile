@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/avatar.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_business_center_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_connect_without_contact_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_discount_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_home_teal.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_newspaper_24.xml" value="0.1" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_pan_tool_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_perm_device_information_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_person_green.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_report_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_baseline_update_24.xml" value="0.1055" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/layout/login_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/layout/main_menu_item_layout.xml" value="0.3055555555555556" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/layout/main_menu_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/Documents/Android/JMOmobile/app/src/main/res/layout/profil_layout.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

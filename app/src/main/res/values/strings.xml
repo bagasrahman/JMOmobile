@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JMOmobile</string>
+
+    <string-array name="service_name">
+        <item>Pembayaran Iuran</item>
+        <item>Promo</item>
+        <item>Pengkinian Dana</item>
+        <item>Mitra</item>
+        <item>Info Program</item>
+        <item>Pelaporan</item>
+        <item>Kantor Cabang</item>
+        <item>Pengaduan</item>
+    </string-array>
+
+    <string-array name="service_logo">
+        <item>@drawable/ic_baseline_payment_24</item>
+        <item>@drawable/ic_baseline_discount_24</item>
+        <item>@drawable/ic_baseline_update_24</item>
+        <item>@drawable/ic_baseline_connect_without_contact_24</item>
+        <item>@drawable/ic_baseline_perm_device_information_24</item>
+        <item>@drawable/ic_baseline_report_24</item>
+        <item>@drawable/ic_baseline_business_center_24</item>
+        <item>@drawable/ic_baseline_pan_tool_24</item>
+    </string-array>
+</resources>
